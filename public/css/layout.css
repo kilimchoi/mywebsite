@@ -1,0 +1,68 @@
+/** MAIN STYLESHEET **/
+html {
+	background-color: white;
+}
+body {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+    color: black;
+	font-family: "runda-1","runda-2","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1 {
+    /*font-family: 'Gotham Rounded A', 'Gotham Rounded B', "proxima-nova-soft", sans-serif;*/
+    font-family: 'Apple Chancery';
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: black;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+h2 {
+	margin:0;
+	padding:0;
+}
+
+footer img {
+	padding: 0;
+	margin-top: 5px;
+}
+nav {
+	padding: 0 0 20px 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+nav li, footer li {
+	list-style: none;
+	display: inline-block;
+}
+nav li a {
+	padding: 5px 10px;
+	color: black;
+}
+nav li a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	border: 1px solid #CCC;
+	border-bottom: 3px solid #CCC;
+	padding: 10px;
+    background-color:white;
+    color: black;
+}
+footer {
+	font-size: 0.9rem;
+}
+#resume {
+	border: 1px solid black;	
+	margin-bottom: 5px;
+}
+footer li {
+	margin: 10px 0 0 0;
+	padding: 0 5px;
+}
